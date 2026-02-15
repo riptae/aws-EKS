@@ -10,3 +10,19 @@ AWS EKS
 [1]
 - plate
 - version, provider, variables
+
+-
+
+[2]
+- networks
+
+-
+
+[3]
+- cluster
+- service..
+
+-
+
+[4]
+- ACCESS 권한 수정
