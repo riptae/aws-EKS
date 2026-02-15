@@ -22,3 +22,18 @@ variable "azs" {
   type    = list(string)
   default = ["ap-northeast-2a", "ap-northeast-2c"]
 }
+
+variable "node_instance_types" {
+  type    = list(string)
+  default = ["t3.small"]
+}
+
+variable "nginx_port" {
+  type    = number
+  default = 8080
+}
+
+variable "admin_arn" {
+  type    = string
+  default = "arn:aws:iam::569853361595:user/cli-vpc-lab"
+}
